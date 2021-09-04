@@ -8,7 +8,7 @@
 
 /server/node_modules
 /server/.idea
-/server/config.env
+/server/.env
 /server/.pnp
 /server/.pnp.js
 /server/npm-debug.log*
