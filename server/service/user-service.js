@@ -48,6 +48,10 @@ class UserService {
 
     return {...tokens, user: userDto}
   }
+
+  async logout(refreshToken) {
+    return await tokenService.removeToken(refreshToken)
+  }
 }
 
 module.exports = new UserService()
